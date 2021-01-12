@@ -59,7 +59,7 @@ def test_accuracy():
                 net_return = price2 - price1
                 current_value = stocks['Adj Close'][-1]
                 roi = net_return/current_value
-                if y > 0 and x > avg_similarity and roi > 0:
+                if y > 0 and x > avg_similarity and roi > 0.05:
                     if return_date == return_dates[0]: week_count += 1 
                     if return_date == return_dates[1]: month_count+=1 
                     if return_date == return_dates[2]: three_month_count+=1 

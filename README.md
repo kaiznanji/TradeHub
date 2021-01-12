@@ -12,18 +12,18 @@ Analysis | **sentiment.R, cosine_sim_tests.py** : With the cleaned text the bot 
 
 ### Difference in Reporting Language(DIRL) and Sentiment Correlation to Returns
 
-1. Sentiment > 0% and DIRL > average difference  --->  at least +5% return
+* Sentiment > 0% and DIRL > average difference  --->  at least +5% return
 
-2. Sentiment > 0% and DIRL < average difference  --->  5% to 0% return
+* Sentiment > 0% and DIRL < average difference  --->  0% to 5% return
                         
-3. Sentiment < 0 and DIRL < average difference   --->  0% to -5% return
+* Sentiment < 0 and DIRL < average difference   --->  -5% to 0% return
 
-4. Sentiment < 0 and DIRL > average difference   --->  less than -5% return
+* Sentiment < 0 and DIRL > average difference   --->  less than -5% return
 
 <p align="center">
-  <img src=![Alt text](sample_data/results/graph.png?raw=true)/>
+  <img src="https://github.com/kaiznanji/TradeHub/blob/main/sample_data/results/graph.png?raw=true"/>
 </p>
-  
+ 
 # Results
 
 Looking at the graph we can see a correlation between identifying changes in the market when reporting language and sentiment changes in earnings reports. To identify whether the bot made better predictions in the short run or long run I ran accuracy tests. I computed investement returns in 1 week, 1 month, 3 months, and 6 months achieved the following accuracy in predicting potential future returns.

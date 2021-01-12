@@ -10,7 +10,7 @@ Pre-Proccessing | **parse_data.py** : After loading the important data into a da
 
 Analysis | **sentiment.R, cosine_sim_tests.py** : With the cleaned text the bot performs sentiment analysis and cosine similarity tests to track changes in reporting languages over each report and correlates positive and negative QDAP(Polarity) scores with future investement returns. The result is hypothesized to be the following:
 
-### Difference in Reporting Language(DIRL), Average Difference in Reporting Languages, Sentiment Correlation to Returns
+### Difference in Reporting Language(DIRL) and Sentiment Correlation to Returns
 
 1. Sentiment > 0% and DIRL > average difference  --->  at least +5% return
 
@@ -21,7 +21,7 @@ Analysis | **sentiment.R, cosine_sim_tests.py** : With the cleaned text the bot 
 4. Sentiment < 0 and DIRL > average difference   --->  less than -5% return
 
 <p align="center">
-  <img src="![Alt text](sample_data/results/graph.png?raw=true)"
+  <img src=![Alt text](sample_data/results/graph.png?raw=true)/>
 </p>
   
 # Results
@@ -29,7 +29,7 @@ Analysis | **sentiment.R, cosine_sim_tests.py** : With the cleaned text the bot 
 Looking at the graph we can see a correlation between identifying changes in the market when reporting language and sentiment changes in earnings reports. To identify whether the bot made better predictions in the short run or long run I ran accuracy tests. I computed investement returns in 1 week, 1 month, 3 months, and 6 months achieved the following accuracy in predicting potential future returns.
 
 <p align="center">
-  <img src="![Alt text](sample_data/results/results.png?raw=true)"/>
+  <img src=![Alt text](sample_data/results/results.png?raw=true)/>
 </p>
 
 # Improvements

@@ -4,13 +4,13 @@ TradeHub is an algorithmic stock bot that analyzes earnings reports from the SEC
 
 # How it works
 
-Webscraping(**parse_data.py**): The bot automates webscraping from the SEC(Securities and Exchange Commission) using the library BeautifulSoup. It looks for recent filings reported by issuing companies in the past 24 hours. It then scrapes 10-K and 10-Q reports of each company in the past 4 years for data cleaning and analysis.
+Webscraping | **parse_data.py** : The bot automates webscraping from the SEC(Securities and Exchange Commission) using the library BeautifulSoup. It looks for recent filings reported by issuing companies in the past 24 hours. It then scrapes 10-K and 10-Q reports of each company in the past 4 years for data cleaning and analysis.
 
-Pre-Proccessing(**parse_data.py**): After loading the important data into a dataframe using pandas, the text of the reports is extracted and cleansed for further natural language proccessing methods. 
+Pre-Proccessing | **parse_data.py** : After loading the important data into a dataframe using pandas, the text of the reports is extracted and cleansed for further natural language proccessing methods. 
 
-Analysis(**sentiment.R, cosine_sim_tests.py**): With the cleaned text the bot performs sentiment analysis and cosine similarity tests to track changes in reporting languages over each report and correlates positive and negative QDAP(Polarity) scores with future investement returns. The result is hypothesized to be the following:
+Analysis | **sentiment.R, cosine_sim_tests.py** : With the cleaned text the bot performs sentiment analysis and cosine similarity tests to track changes in reporting languages over each report and correlates positive and negative QDAP(Polarity) scores with future investement returns. The result is hypothesized to be the following:
 
-####Difference in Reporting Language(DIRL) and Sentiment Relationships:
+#####Difference in Reporting Language(DIRL) and Sentiment Relationships:
 
 Sentiment > 0% and DIRL > average difference --> at least +5% return
 

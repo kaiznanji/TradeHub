@@ -33,7 +33,7 @@ Looking at the graph for the company *Ameresco Inc.* we can see a correlation be
 
 
 <p align="center">
-  <img src="https://github.com/kaiznanji/TradeHub/blob/main/sample_data/results/predictions.png?raw=true", width=300, height=100/>
+  <img src="https://github.com/kaiznanji/TradeHub/blob/main/sample_data/results/predictions.png?raw=true", width=700, height=100/>
 </p>
 
 

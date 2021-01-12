@@ -16,21 +16,25 @@ Analysis | **sentiment.R, cosine_sim_tests.py** : With the cleaned text the bot 
 
 * Sentiment > 0% and DIRL < average difference  --->  0% to 5% return
                         
-* Sentiment < 0 and DIRL < average difference   --->  -5% to 0% return
+* Sentiment < 0% and DIRL < average difference  --->  -5% to 0% return
 
-* Sentiment < 0 and DIRL > average difference   --->  less than -5% return
+* Sentiment < 0% and DIRL > average difference  --->  less than -5% return
+
 
 <p align="center">
   <img src="https://github.com/kaiznanji/TradeHub/blob/main/sample_data/results/graph.png?raw=true"/>
 </p>
  
+ 
 # Results
 
 Looking at the graph we can see a correlation between identifying changes in the market when reporting language and sentiment changes in earnings reports. To identify whether the bot made better predictions in the short run or long run I ran accuracy tests. I computed investement returns in 1 week, 1 month, 3 months, and 6 months achieved the following accuracy in predicting potential future returns.
 
+
 <p align="center">
-  <img src=![Alt text](sample_data/results/results.png?raw=true)/>
+  <img src="https://github.com/kaiznanji/TradeHub/blob/main/sample_data/results/results.png?raw=true"/>
 </p>
+
 
 # Improvements
 This bot serves as an suitable foundation to predicting long term investement returns, specifically 3-6 months. For improvements I might decide to investigate the transfers of securities(Form 4), which provide signals to predicting short term returns in the market. Until next time!

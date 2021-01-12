@@ -21,7 +21,7 @@ Analysis | **sentiment.R, cosine_sim_tests.py** : With the cleaned text the bot 
                         Sentiment < 0 and DIRL > average difference --> less than -5% return
 
 
-![Screenshot](predictions.png)
+![Alt text](sample_data/results/graph.png?raw=true)
 
 # Results
 

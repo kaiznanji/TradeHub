@@ -32,7 +32,7 @@ Looking at the graph we can see a correlation between identifying changes in the
 
 
 <p align="center">
-  <img src="https://github.com/kaiznanji/TradeHub/blob/main/sample_data/results/results.png?raw=true"/>
+  <img src="https://github.com/kaiznanji/TradeHub/blob/main/sample_data/results/predictions.png?raw=true"/>
 </p>
 
 

@@ -18,15 +18,15 @@ Analysis | **sentiment.R, cosine_sim_tests.py** : With the cleaned text the bot 
                         
 * Sentiment < 0% and DIRL < average difference  --->  -5% to 0% return
 
-* Sentiment < 0% and DIRL > average difference  --->  less than -5% return
+* Sentiment < 0% and DIRL > average difference  --->  less than -5% return\
 
-/n
+
 
 <p align="center">
   <img src="https://github.com/kaiznanji/TradeHub/blob/main/sample_data/results/graph.png?raw=true"/>
-</p>
+</p>\
  
-/n
+
 
 ## Results
 

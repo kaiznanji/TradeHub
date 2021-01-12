@@ -10,7 +10,7 @@ Pre-Proccessing | **parse_data.py** : After loading the important data into a da
 
 Analysis | **sentiment.R, cosine_sim_tests.py** : With the cleaned text the bot performs sentiment analysis and cosine similarity tests to track changes in reporting languages over each report and correlates positive and negative QDAP(Polarity) scores with future investement returns. The result is hypothesized to be the following:
 
-## Difference in Reporting Language(DIRL) and Sentiment Correlation to Returns
+#### Difference in Reporting Language(DIRL) and Sentiment Correlation to Returns
 
 * Sentiment > 0% and DIRL > average difference  --->  at least +5% return
 

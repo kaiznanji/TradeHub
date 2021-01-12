@@ -12,13 +12,13 @@ Analysis | **sentiment.R, cosine_sim_tests.py** : With the cleaned text the bot 
 
 ### Difference in Reporting Language(DIRL) and Sentiment Relationships
 
-                                            Sentiment > 0% and DIRL > average difference --> at least +5% return
+                                   Sentiment > 0% and DIRL > average difference --> at least +5% return
 
-                                            Sentiment > 0% and DIRL < average difference --> 5% to 0% return
+                                   Sentiment > 0% and DIRL < average difference --> 5% to 0% return
 
-                                            Sentiment < 0 and DIRL < average difference --> 0% to -5% return
+                                   Sentiment < 0 and DIRL < average difference --> 0% to -5% return
 
-                                            Sentiment < 0 and DIRL > average difference --> less than -5% return
+                                   Sentiment < 0 and DIRL > average difference --> less than -5% return
 
 
 ![Screenshot](predictions.png)

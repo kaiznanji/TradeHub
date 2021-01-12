@@ -13,5 +13,5 @@ Analysis: With the cleaned text the bot performs sentiment analysis and cosine s
 
 
 
-![alt text](https://github.com/kaiznanji/TradeHub/?raw=true)
+![alt text](https://github.com/kaiznanji/TradeHub/sample_data/results/predictions.png?raw=true)
 

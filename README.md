@@ -12,13 +12,13 @@ Analysis | **sentiment.R, cosine_sim_tests.py** : With the cleaned text the bot 
 
 ### Difference in Reporting Language(DIRL) and Sentiment Relationships
 
-Sentiment > 0% and DIRL > average difference --> at least +5% return
+                                            Sentiment > 0% and DIRL > average difference --> at least +5% return
 
-Sentiment > 0% and DIRL < average difference --> 5% to 0% return
+                                            Sentiment > 0% and DIRL < average difference --> 5% to 0% return
 
-Sentiment < 0 and DIRL < average difference --> 0% to -5% return
+                                            Sentiment < 0 and DIRL < average difference --> 0% to -5% return
 
-Sentiment < 0 and DIRL > average difference --> less than -5% return
+                                            Sentiment < 0 and DIRL > average difference --> less than -5% return
 
 
 ![Screenshot](predictions.png)
@@ -30,7 +30,7 @@ Looking at the graph we can see a correlation between identifying changes in the
 ![Screenshot](results.png)
 
 # Improvements
-This bot serves as an adequate foundation to predicting investement returns. For improvements I might decide to investigate the transfers of securities(Form 4), which provide additional signals to predicting potential profits in the market. Until next time!
+This bot serves as an suitable foundation to predicting long term investement returns, specifically 3-6 months. For improvements I might decide to investigate the transfers of securities(Form 4), which provide signals to predicting short term returns in the market. Until next time!
 
 
 

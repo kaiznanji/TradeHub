@@ -14,4 +14,3 @@ Analysis: With the cleaned text the bot performs sentiment analysis and cosine s
 
 
 ![Screenshot](predictions.png)
-

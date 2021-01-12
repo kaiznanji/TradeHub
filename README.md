@@ -22,7 +22,7 @@ Analysis | **sentiment.R, cosine_sim_tests.py** : With the cleaned text the bot 
 
 
 <p align="center">
-  <img src="https://github.com/kaiznanji/TradeHub/blob/main/sample_data/results/graph.png?raw=true"/>
+  <img src="https://github.com/kaiznanji/TradeHub/blob/main/sample_data/results/graph.png?raw=true",width=600,height=500/>
 </p>
  
 

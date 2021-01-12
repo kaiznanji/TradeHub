@@ -20,15 +20,17 @@ Analysis | **sentiment.R, cosine_sim_tests.py** : With the cleaned text the bot 
 
 * Sentiment < 0% and DIRL > average difference  --->  less than -5% return
 
+/n
 
 <p align="center">
   <img src="https://github.com/kaiznanji/TradeHub/blob/main/sample_data/results/graph.png?raw=true"/>
 </p>
  
- 
+/n
+
 ## Results
 
-Looking at the graph for the company * Ameresco Inc.* we can see a correlation between identifying changes in the market when reporting language and sentiment changes in earnings reports. To identify whether the bot made better predictions in the short run or long run I ran accuracy tests. I computed investement returns in 1 week, 1 month, 3 months, and 6 months achieved the following accuracy in predicting potential future returns.
+Looking at the graph for the company *Ameresco Inc.* we can see a correlation between identifying changes in the market when reporting language and sentiment changes in earnings reports. To identify whether the bot made better predictions in the short run or long run I ran accuracy tests. I computed investement returns in 1 week, 1 month, 3 months, and 6 months achieved the following accuracy in predicting potential future returns.
 
 
 <p align="center">

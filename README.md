@@ -23,9 +23,11 @@ Analysis | **sentiment.R, cosine_sim_tests.py** : With the cleaned text the bot 
 <p align="center">
   <img src="![Alt text](sample_data/results/graph.png?raw=true)"
 </p>
+  
 # Results
 
 Looking at the graph we can see a correlation between identifying changes in the market when reporting language and sentiment changes in earnings reports. To identify whether the bot made better predictions in the short run or long run I ran accuracy tests. I computed investement returns in 1 week, 1 month, 3 months, and 6 months achieved the following accuracy in predicting potential future returns.
+
 <p align="center">
   <img src="![Alt text](sample_data/results/results.png?raw=true)"/>
 </p>

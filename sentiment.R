@@ -9,8 +9,6 @@ lapply(files, function(x) {
   # Sentiment Analysis on text 
   sentiment <- analyzeSentiment(text)
   sentimentdata <- sentiment$SentimentQDAP
-  sentimentdata <- sentimentdata
-  sentimentdata
   table$SentimentQDAP <- sentimentdata
   df <- subset(table, select = -c(text.body))
   

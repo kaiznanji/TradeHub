@@ -22,7 +22,7 @@ TradeHub is an algorithmic stock bot that analyzes earnings reports from the SEC
 
 
 <p align="center">
-  <img src="https://github.com/kaiznanji/TradeHub/blob/main/sample_data/results/graph.png?raw=true",width=600,height=500/>
+  <img src="https://github.com/kaiznanji/TradeHub/blob/main/sample_data/results/graph.png?raw=true",width=550,height=450/>
 </p>
  
 

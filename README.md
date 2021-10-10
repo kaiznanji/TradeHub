@@ -38,7 +38,7 @@ Looking at the graph for the company *Ameresco Inc.* we can see a correlation be
 
 
 ## Improvements
-This bot serves as an suitable foundation to predicting long term investement returns, specifically 3-6 months. For improvements I might decide to investigate the transfers of securities(Form 4), which provide signals to predicting short term returns in the market. Until next time!
+This bot serves as an suitable foundation to predicting long term investement returns, specifically 3-6 months. For improvements I might decide to investigate the transfers of securities(Form 4), which provide signals to predicting short term returns in the market.
 
 
 
